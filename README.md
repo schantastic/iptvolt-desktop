@@ -2,18 +2,20 @@
 
 <img src="https://iptvolt.com/icon-512.png" width="112" alt="iptvolt app icon" />
 
-# iptvolt for Windows
+# iptvolt for Windows and Linux
 
 **The IPTV player for your own M3U playlists and Xtream Codes logins, on your PC.**<br/>
 Live TV with a real TV guide, movies, series, catch-up and sport. No ads, no account.
 
 [![Download for Windows](https://img.shields.io/badge/Download%20for%20Windows-iptvolt--Setup.exe-2EE6FF?style=for-the-badge&logo=windows&logoColor=0A0B0D&labelColor=0A0B0D)](https://github.com/schantastic/iptvolt-desktop/releases/latest/download/iptvolt-Setup.exe)
 
+[![Download for Linux](https://img.shields.io/badge/Download%20for%20Linux-AppImage-2EE6FF?style=for-the-badge&logo=linux&logoColor=0A0B0D&labelColor=0A0B0D)](https://github.com/schantastic/iptvolt-desktop/releases/latest/download/iptvolt-Linux.AppImage)
+
 [![Latest release](https://img.shields.io/github/v/release/schantastic/iptvolt-desktop?style=flat-square&label=version&color=2EE6FF&labelColor=1C1C1E)](https://github.com/schantastic/iptvolt-desktop/releases/latest)
 [![Windows 10 and 11](https://img.shields.io/badge/Windows-10%20%7C%2011%20(64--bit)-2EE6FF?style=flat-square&labelColor=1C1C1E)](https://iptvolt.com/iptv-player-windows)
 [![Website](https://img.shields.io/badge/website-iptvolt.com-2EE6FF?style=flat-square&labelColor=1C1C1E)](https://iptvolt.com)
 
-<img src="https://iptvolt.com/screens/tv/05-movies.jpg" width="820" alt="iptvolt for Windows: the movie library in the big-screen interface (demo source)" />
+<img src="https://iptvolt.com/screens/tv/05-movies.jpg" width="820" alt="iptvolt for Windows and Linux: the movie library in the big-screen interface (demo source)" />
 
 <sub>Real app screen with a demo source. iptvolt ships no channels or content.</sub>
 
@@ -30,7 +32,7 @@ Live TV with a real TV guide, movies, series, catch-up and sport. No ads, no acc
 - **Encrypted sync:** one code links your PC with your phone, tablet and TV (Pro). End-to-end encrypted, no account.
 - **Keeps itself up to date** in the background.
 
-## Install
+## Install on Windows
 
 1. [Download `iptvolt-Setup.exe`](https://github.com/schantastic/iptvolt-desktop/releases/latest/download/iptvolt-Setup.exe) and run it. It installs in one click, no admin rights needed.
 2. Windows may show **"Windows protected your PC"** for new apps: choose **More info**, then **Run anyway**.
@@ -38,16 +40,24 @@ Live TV with a real TV guide, movies, series, catch-up and sport. No ads, no acc
 
 Requires Windows 10 or 11, 64-bit.
 
+### Linux (beta)
+
+1. [Download `iptvolt-Linux.AppImage`](https://github.com/schantastic/iptvolt-desktop/releases/latest/download/iptvolt-Linux.AppImage) (64-bit).
+2. `chmod +x iptvolt-Linux.AppImage && ./iptvolt-Linux.AppImage`
+3. If it won't start on a recent Ubuntu, install FUSE 2: `sudo apt install libfuse2` (`libfuse2t64` on Ubuntu 24.04).
+
+More: [iptvolt for Linux](https://iptvolt.com/iptv-player-linux)
+
 ## On every screen
 
-iptvolt is rolling out on iPhone, iPad, Mac, Android, Apple TV, Android TV and Google TV, Amazon Fire TV, Samsung and LG Smart TVs and Windows. One Pro purchase covers up to 5 of your devices that share a sync code.<br/>
+iptvolt is rolling out on iPhone, iPad, Mac, Android, Apple TV, Android TV and Google TV, Amazon Fire TV, Samsung and LG Smart TVs, Windows and Linux. One Pro purchase covers up to 5 of your devices that share a sync code.<br/>
 All platforms: **[iptvolt.com/download](https://iptvolt.com/download)**
 
 ## Good to know
 
 iptvolt is a media player. It provides no channels, playlists or content and is not affiliated with any provider. You are responsible for the legality of the sources you add.
 
-This repository only hosts the Windows release files; the app is built and published by schantastic e.U.
+This repository only hosts the Windows and Linux release files; the app is built and published by schantastic e.U.
 
 ---
 
